@@ -1,0 +1,22 @@
+{
+  "name": "Acoustic",
+  "short_name": "Acoustic",
+  "start_url": "http://acoustic.surge.sh/",
+  "display": "standalone",
+  "background_color": "#03192E",
+  "theme_color": "#03192E",
+  "description": "Acoustic is the fastest, most feature rich bot ever.",
+  "icons": [
+    {
+      "src": "https://cdn.jsdelivr.net/gh/Jeve-Stobs/rickCDN@master/transparentlogo.webp",
+      "sizes": "1297x1297",
+      "type": "image/webp"
+    },
+     {
+      "src": "https://cdn.jsdelivr.net/gh/Jeve-Stobs/rickCDN@master/maskable_icon.png",
+      "sizes": "1297x1297",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
