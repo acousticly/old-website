@@ -80,7 +80,7 @@ button:hover {
 	font-size: 1.8rem;
 }
 .hero-title {
-	font-size: calc(30px + 3vw);
+	font-size: calc(90px + 3vw);
 	font-weight: 700;
 	text-shadow: 0 1px 0 #c9cece, 0 2px 0 #bcc2c1, 0 3px 0 #aeb6b5,
 		0 4px 0 #a3acab, 0 5px 0 #9ea7a6, 0 6px 0 #99a2a1, 0 7px 0 #96a09f,
