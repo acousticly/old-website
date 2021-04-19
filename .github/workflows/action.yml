@@ -11,6 +11,6 @@ jobs:
         uses: dswistowski/surge-sh-action@v1
         with:
           domain: 'acoustic.surge.sh'
-          project: 'index.html'
+          project: 'src/'
           login: samuelacasey@gmail.com
           token: 0fb3ecc61707a94d8d6170372fcf4b48
