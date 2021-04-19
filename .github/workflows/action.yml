@@ -1,0 +1,25 @@
+name: Acoustic
+
+on: push
+
+jobs:
+  my-job:
+    name: Acoustic
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to acoustic.surge.sh
+        uses: dswistowski/surge-sh-action@v1
+        with:
+          domain: 'acoustic.surge.sh'
+          project: '.'
+          login: ${{ samuelacasey@gmail.com }}
+          token: ${{ 0fb3ecc61707a94d8d6170372fcf4b48 }}
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello, world!
+
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
