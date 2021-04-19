@@ -12,5 +12,5 @@ jobs:
         with:
           domain: 'acoustic.surge.sh'
           project: '.'
-          login: ${{samuelacasey@gmail.com}}
-          token: ${{0fb3ecc61707a94d8d6170372fcf4b48}}
+          login: samuelacasey@gmail.com
+          token: 0fb3ecc61707a94d8d6170372fcf4b48
