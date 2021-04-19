@@ -10,7 +10,7 @@ jobs:
       - name: Deploy to acoustic.surge.sh
         uses: dswistowski/surge-sh-action@v1
         with:
-          project: './'
+          project: '.'
           domain: 'acoustic.surge.sh'
           login: samuelacasey@gmail.com
           token: 0fb3ecc61707a94d8d6170372fcf4b48
