@@ -1,16 +1,16 @@
-name: Acoustic
+name: Deploy Website
 
-on: push
+on: [push]
 
 jobs:
-  my-job:
-    name: Acoustic
+  build:
     runs-on: ubuntu-latest
+    name: Deploying to surge
     steps:
-      - name: Deploy to acoustic.surge.sh
-        uses: dswistowski/surge-sh-action@v1
+      - uses: actions/checkout@v1
+      - name: Install surge and fire deployment
+        uses: actions/setup-node@v1
         with:
-          project: '.'
-          domain: 'acoustic.surge.sh'
-          login: samuelacasey@gmail.com
-          token: 0fb3ecc61707a94d8d6170372fcf4b48
+          node-version: 8
+      - run: npm install -g surge
+      - run: surge ./ acoustic.surge.sh --token 0fb3ecc61707a94d8d6170372fcf4b48
