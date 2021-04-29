@@ -1,7 +1,6 @@
 {
   "name": "Acoustic",
   "short_name": "Acoustic",
-  "start_url": "http://acoustic.surge.sh/",
   "display": "standalone",
   "background_color": "#03192E",
   "theme_color": "#03192E",
