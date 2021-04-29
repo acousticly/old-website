@@ -1,2 +1,2 @@
 # AcousticSite
-Pull requests welcome 😊
+PRs welcome 😊
