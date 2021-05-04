@@ -13,4 +13,4 @@ jobs:
         with:
           node-version: 8
       - run: npm install -g surge
-      - run: surge ./ acoustic.surge.sh --token 0fb3ecc61707a94d8d6170372fcf4b48
+      - run: surge ./ https://acoustic.surge.sh --token 0fb3ecc61707a94d8d6170372fcf4b48
