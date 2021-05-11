@@ -1,6 +1,13 @@
 /** @format */
 
 @import url(https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap);
+/* For mobile devices */
+@media only screen and (max-width: 767px) {
+  body {
+    background-image: url(https://cdn.jsdelivr.net/gh/Jeve-Stobs/rickCDN@master/bg38.avif);
+  }
+	}
+}
 ::-webkit-scrollbar-track {
 	border-radius: 10px;
 	background-color: #04223e;
@@ -81,10 +88,12 @@ button:hover {
 	font-size: 37px;
 }
 .hero-section {
-	background-color: #04223e;
 	background-image: url(https://cdn.jsdelivr.net/gh/Jeve-Stobs/rickCDN@master/bg38.png);
-	background-repeat: no-repeat;
-	background-size: cover;
+  	background-position: center center;
+  	background-repeat: no-repeat;
+    	background-attachment: fixed;
+  	background-size: cover;
+  	background-color:#04223e;
 	padding: 16.8em 0 14.8em 0;
 	border-radius: 0 0 40px 40px;
 	font-size: 1.8rem;
