@@ -11,6 +11,6 @@ jobs:
       - name: Install surge and fire deployment
         uses: actions/setup-node@v1
         with:
-          node-version: 8
+          node-version: 16.x
       - run: npm install -g surge
       - run: surge ./ https://acoustic.surge.sh --token 0fb3ecc61707a94d8d6170372fcf4b48
