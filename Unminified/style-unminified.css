@@ -7,7 +7,7 @@
     background-image: url(https://cdn.jsdelivr.net/gh/Jeve-Stobs/rickCDN@master/bg38.avif);
   }
 	}
-}
+
 ::-webkit-scrollbar-track {
 	border-radius: 10px;
 	background-color: #04223e;
@@ -89,13 +89,17 @@ button:hover {
 }
 .hero-section {
 	background-image: url(https://cdn.jsdelivr.net/gh/Jeve-Stobs/rickCDN@master/bg38.png);
-  	background-position: center center;
-  	background-repeat: no-repeat;
-    	background-attachment: fixed;
-  	background-size: cover;
-  	background-color:#04223e;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color:#04223e;
 	padding: 16.8em 0 14.8em 0;
 	border-radius: 0 0 40px 40px;
+	-webkit-border-radius: 0 0 40px 40px;
+	-moz-border-radius: 0 0 40px 40px;
+	-ms-border-radius: 0 0 40px 40px;
+	-o-border-radius: 0 0 40px 40px;
 	font-size: 1.8rem;
 }
 .hero-title {
