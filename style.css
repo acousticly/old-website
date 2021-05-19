@@ -59,6 +59,19 @@ a {
 .support {
 	color: #03192E;
 }
+.features {
+	color: #03192E;
+	text-decoration: none;
+	padding: 5px;
+	background-color: #f47850;
+	padding: 10px 15px;
+	border-radius: 10px;
+	float: right;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+}
 footer {
 	font-size: 20px;
 }
@@ -81,6 +94,10 @@ button:hover {
 	margin: 10px;
 	background-color: #f47850;
 	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
 }
 .helper {
 	font-size: 37px;
