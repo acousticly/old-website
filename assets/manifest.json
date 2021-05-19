@@ -7,12 +7,12 @@
   "description": "Acoustic is the fastest, most feature rich bot ever.",
   "icons": [
     {
-      "src": "https://cdn.jsdelivr.net/gh/Jeve-Stobs/rickCDN@master/transparentlogo.png",
+      "src": "https://raw.githubusercontent.com/acousticly/cdn/main/transparentlogo.png",
       "sizes": "1297x1297",
       "type": "image/webp"
     },
      {
-      "src": "https://cdn.jsdelivr.net/gh/Jeve-Stobs/rickCDN@master/maskable_icon.png",
+      "src": "https://raw.githubusercontent.com/acousticly/cdn/main/maskable_icon.png",
       "sizes": "1297x1297",
       "type": "image/png",
       "purpose": "any maskable"
