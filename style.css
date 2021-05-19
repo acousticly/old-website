@@ -2,7 +2,7 @@
 /* For mobile devices */
 @media only screen and (max-width: 767px) {
   body {
-    background-image: url(https://raw.githubusercontent.com/Jeve-Stobs/rickCDN/main/bg38.avif);
+    background-image: url(https://raw.githubusercontent.com/acousticly/cdn/main/bgCompressed.avif);
   }
 	}
 
@@ -103,7 +103,7 @@ button:hover {
 	font-size: 37px;
 }
 .hero-section {
-	background-image: url(https://raw.githubusercontent.com/Jeve-Stobs/rickCDN/main/bg38.svg);
+	background-image: url(https://raw.githubusercontent.com/acousticly/cdn/main/bg.svg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -130,11 +130,11 @@ button:hover {
 	margin: 20px;
 }
 .hero-btn {
-	background-image: url(https://cdn.jsdelivr.net/gh/Jeve-Stobs/rickCDN@master/bg14.png);
+	background-image: url(https://raw.githubusercontent.com/acousticly/cdn/main/footer.svg);
 	background-repeat: no-repeat;
 }
 .s-m-section {
-	background-image: url(https://cdn.jsdelivr.net/gh/Jeve-Stobs/rickCDN@master/bg14.png);
+	background-image: url(https://raw.githubusercontent.com/acousticly/cdn/main/footer.svg);
 	padding: 50px;
 	background-repeat: no-repeat;
 	background-size: cover;
