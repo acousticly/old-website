@@ -131,6 +131,7 @@ button:hover {
 }
 .hero-btn {
 	background-image: url(https://raw.githubusercontent.com/acousticly/cdn/main/footer.svg);
+	background-size: cover;
 	background-repeat: no-repeat;
 }
 .s-m-section {
