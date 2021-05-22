@@ -1,4 +1,4 @@
-@import url(https://raw.githubusercontent.com/acousticly/cdn/master/css2.css);
+@import url(https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap);
 /* For mobile devices */
 @media only screen and (max-width: 767px) {
 	body {
@@ -31,6 +31,8 @@ html {
 	scroll-behavior: smooth;
 	overflow-x: hidden;
 	-webkit-font-smoothing: antialiased;
+	font-style: normal;
+
 }
 body {
 	background: #03192e;
