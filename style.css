@@ -1,6 +1,5 @@
-/** @format */
-
 @import url(https://raw.githubusercontent.com/acousticly/cdn/master/css2.css);
+/* For mobile devices */
 @media only screen and (max-width: 767px) {
 	body {
 		background-image: url(https://raw.githubusercontent.com/acousticly/cdn/main/bgCompressed.avif);
