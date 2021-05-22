@@ -1,7 +1,7 @@
 {
 	"theme_color": "#031A2F",
 	"background_color": "#031A2F",
-	"display": "minimal-ui",
+	"display": "fullscreen",
 	"scope": "/",
 	"start_url": "/",
 	"name": "Acoustic",
