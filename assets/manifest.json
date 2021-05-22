@@ -24,7 +24,7 @@
 			"type": "image/png"
 		},
 		{
-			"src": "https://raw.githubusercontent.com/acousticly/cdn/master/icon-512x512.png",
+			"src": "https://raw.githubusercontent.com/acousticly/cdn/master/maskable_icon.png",
 			"sizes": "512x512",
 			"type": "image/png"
 		}
