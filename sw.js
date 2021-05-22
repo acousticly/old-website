@@ -59,7 +59,7 @@ workbox.routing.registerRoute(
 
 workbox.routing.registerRoute(
 	new RegExp(
-		'https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap'
+		'https://raw.githubusercontent.com/acousticly/cdn/master/css2.css'
 	),
 	workbox.strategies.cacheFirst({
 		cacheName: 'acoustic-font',
