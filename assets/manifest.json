@@ -1,21 +1,32 @@
 {
-  "name": "Acoustic",
-  "short_name": "Acoustic",
-  "display": "standalone",
-  "background_color": "#03192E",
-  "theme_color": "#03192E",
-  "description": "Acoustic is the fastest, most feature rich bot ever.",
-  "icons": [
-    {
-      "src": "https://raw.githubusercontent.com/acousticly/cdn/main/transparentlogo.png",
-      "sizes": "1297x1297",
-      "type": "image/png"
-    },
-     {
-      "src": "https://raw.githubusercontent.com/acousticly/cdn/main/maskable_icon.png",
-      "sizes": "1297x1297",
-      "type": "image/png",
-      "purpose": "any maskable"
-    }
-  ]
+	"theme_color": "#031A2F",
+	"background_color": "#031A2F",
+	"display": "minimal-ui",
+	"scope": "/",
+	"start_url": "/",
+	"name": "Acoustic",
+	"short_name": "acoustic",
+	"description": "Acoustic is the fastest, most feature rich bot ever",
+	"icons": [
+		{
+			"src": "https://raw.githubusercontent.com/acousticly/cdn/master/icon-192x192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "https://raw.githubusercontent.com/acousticly/cdn/master/icon-256x256.png",
+			"sizes": "256x256",
+			"type": "image/png"
+		},
+		{
+			"src": "https://raw.githubusercontent.com/acousticly/cdn/master/icon-384x384.png",
+			"sizes": "384x384",
+			"type": "image/png"
+		},
+		{
+			"src": "https://raw.githubusercontent.com/acousticly/cdn/master/icon-512x512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	]
 }
