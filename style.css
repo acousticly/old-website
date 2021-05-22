@@ -1,11 +1,10 @@
 @import url(https://raw.githubusercontent.com/acousticly/cdn/master/css2.css);
 /* For mobile devices */
 @media only screen and (max-width: 767px) {
-  body {
-    background-image: url(https://raw.githubusercontent.com/acousticly/cdn/main/bgCompressed.avif);
-  }
+	body {
+		background-image: url(https://raw.githubusercontent.com/acousticly/cdn/main/bgCompressed.avif);
 	}
-
+}
 ::-webkit-scrollbar-track {
 	border-radius: 10px;
 	background-color: #04223e;
@@ -57,10 +56,10 @@ a {
 	padding: 5px;
 }
 .support {
-	color: #03192E;
+	color: #03192e;
 }
 .features {
-	color: #03192E;
+	color: #03192e;
 	text-decoration: none;
 	padding: 5px;
 	background-color: #f47850;
@@ -108,7 +107,7 @@ button:hover {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-	background-color:#04223e;
+	background-color: #04223e;
 	padding: 5.8em 0 0.8em 0;
 	border-radius: 0 0 40px 40px;
 	-webkit-border-radius: 0 0 40px 40px;
