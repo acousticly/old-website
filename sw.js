@@ -77,7 +77,7 @@ workbox.routing.registerRoute(
 		'https://*.cloudfront.net/css/*/style.css'
 	),
 	workbox.strategies.cacheFirst({
-		cacheName: 'acoustic-manifest',
+		cacheName: 'acoustic-css2',
 		plugins: [
 			new workbox.expiration.Plugin({
 				maxAgeSeconds: 24 * 60 * 60 * 28,
