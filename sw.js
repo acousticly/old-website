@@ -33,23 +33,9 @@ workbox.routing.registerRoute(
 	})
 );
 workbox.routing.registerRoute(
-	new RegExp('https://raw.githubusercontent.com/acousticly/cdn/main/*'),
+	new RegExp('https://acoustic.to/assets/*'),
 	workbox.strategies.cacheFirst({
 		cacheName: 'acoustic-assets',
-		plugins: [
-			new workbox.expiration.Plugin({
-				maxAgeSeconds: 24 * 60 * 60 * 28,
-				purgeOnQuotaError: !0,
-			}),
-		],
-	})
-);
-workbox.routing.registerRoute(
-	new RegExp(
-		'https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap'
-	),
-	workbox.strategies.cacheFirst({
-		cacheName: 'acoustic-font',
 		plugins: [
 			new workbox.expiration.Plugin({
 				maxAgeSeconds: 24 * 60 * 60 * 28,
