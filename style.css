@@ -1,8 +1,39 @@
+/** @format */
+
 @import url(https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap);
 /* For mobile devices */
 @media only screen and (max-width: 767px) {
 	body {
 		background-image: url(https://raw.githubusercontent.com/acousticly/cdn/main/bgCompressed.avif);
+	}
+	.support {
+		width: 100%;
+	}
+	.features {
+		width: 100%;
+
+	}
+	.navbar {
+		list-style-type: none;
+		padding: px;
+	}
+	.navbar .nav-item:not(:last-child) {
+		float: top;
+		float: left;
+		padding: 10px;
+		width: 100%;
+	}
+	.navbar .nav-item:last-child {
+		float: right;
+		padding: 10px 15px;
+		margin: 10px;
+		width: 100%;
+		background-color: #f47850;
+		border-radius: 10px;
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		-ms-border-radius: 10px;
+		-o-border-radius: 10px;
 	}
 }
 ::-webkit-scrollbar-track {
@@ -32,7 +63,6 @@ html {
 	overflow-x: hidden;
 	-webkit-font-smoothing: antialiased;
 	font-style: normal;
-
 }
 body {
 	background: #03192e;
@@ -82,11 +112,11 @@ a {
 	background-color: #f47850;
 	border-radius: 10px;
 	display: block;
-    	display: inline-block;
-     	width: 30px;
-     	height: 30px;
-     	float: left;
-     	margin-left: 3px;	
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-left: 3px;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	-ms-border-radius: 10px;

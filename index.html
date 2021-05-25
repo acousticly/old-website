@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width,initial-scale=1" />
-		  <meta name="theme-color" content="#03192E"/>
+		<meta name="theme-color" content="#03192E" />
 		<meta property="og:locale" content="en_US" />
 		<meta property="og:title" content="Acoustic" />
 		<meta
@@ -40,11 +40,11 @@
 		/>
 		<link
 			rel="preload"
-			href="https://acoustic.to/style.css"
+			href="./style.css"
 			as="style"
 			onload="this.onload=null,this.rel=`stylesheet`"
 		/>
-		<link rel="stylesheet" href="https://acoustic.to/style.css" />
+		<link rel="stylesheet" href="./style.css" />
 		<link
 			rel="preload"
 			href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -84,13 +84,15 @@
 					<strong>Features</strong>
 				</button>
 			</li>
-			<li class="nav-item"><center>
-				<button
-					onclick="window.location.href=`https://patreon.com/acousticly`"
-					class="features"
-				>
-					<strong>Patreon</strong>
-				</button></center>
+			<li class="nav-item">
+				<center>
+					<button
+						onclick="window.location.href=`https://patreon.com/acousticly`"
+						class="features"
+					>
+						<strong>Patreon</strong>
+					</button>
+				</center>
 			</li>
 			<li class="nav-item">
 				<a class="support" href="https://discord.gg/FFJ4hJHRDh"
@@ -264,7 +266,7 @@
 			>
 				<strong>ADD TO SERVER</strong>
 			</button>
-			<br>
+			<br />
 			<button
 				onclick="window.location.href=`https://discord.gg/FFJ4hJHRDh`"
 				class="s-m-btn-2"
@@ -309,8 +311,7 @@
 			);
 		}
 		function showInstallPromo(e) {
-			(deferredPrompt = e),
-				btnAdd.removeAttribute('disabled');
+			(deferredPrompt = e), btnAdd.removeAttribute('disabled');
 		}
 		function hideInstallPromo() {
 			(divInstallStatus.textContent = 'false'),
@@ -356,4 +357,13 @@
 					navigator.serviceWorker.register('/sw.js').then(() => {
 						console.log('SERVICE_WORKER: Registered');
 					});
-				});</script></html>
+				});
+	</script>
+	<script
+		type="text/javascript"
+		src="//www.termsfeed.com/public/cookie-consent/4.0.0/cookie-consent.js"
+		charset="UTF-8"
+	></script>
+
+	
+</html>
