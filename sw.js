@@ -58,6 +58,34 @@ workbox.routing.registerRoute(
 		],
 	})
 );
+workbox.routing.registerRoute(
+	new RegExp(
+		'https://acoustic.to/assets/manifest.json'
+	),
+	workbox.strategies.cacheFirst({
+		cacheName: 'acoustic-manifest',
+		plugins: [
+			new workbox.expiration.Plugin({
+				maxAgeSeconds: 24 * 60 * 60 * 28,
+				purgeOnQuotaError: !0,
+			}),
+		],
+	})
+);
+workbox.routing.registerRoute(
+	new RegExp(
+		'https://*.cloudfront.net/css/*/style.css'
+	),
+	workbox.strategies.cacheFirst({
+		cacheName: 'acoustic-manifest',
+		plugins: [
+			new workbox.expiration.Plugin({
+				maxAgeSeconds: 24 * 60 * 60 * 28,
+				purgeOnQuotaError: !0,
+			}),
+		],
+	})
+);
 self.addEventListener('install', function (event) {
 	console.log('[ServiceWorker] Install');
 	event.waitUntil(
