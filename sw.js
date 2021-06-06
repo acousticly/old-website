@@ -72,6 +72,20 @@ workbox.routing.registerRoute(
 		],
 	})
 );
+workbox.routing.registerRoute(
+	new RegExp(
+		'https://apiv2.popupsmart.com/api/Bundle/script-loader/366405?Referer=https%3A%2F%2Facoustic.to%2F'
+	),
+	workbox.strategies.cacheFirst({
+		cacheName: 'acoustic-cookies',
+		plugins: [
+			new workbox.expiration.Plugin({
+				maxAgeSeconds: 24 * 60 * 60 * 28,
+				purgeOnQuotaError: !0,
+			}),
+		],
+	})
+);
 self.addEventListener('install', function (event) {
 	console.log('[ServiceWorker] Install');
 	event.waitUntil(
