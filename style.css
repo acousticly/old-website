@@ -32,11 +32,11 @@
 }
 ::-webkit-scrollbar-track {
 	border-radius: 10px;
-	background-color: #49246E;
+	background-color: #000036;
 }
 ::-webkit-scrollbar {
 	width: 12px;
-	background-color: #49246E;
+	background-color: #000036;
 }
 ::-webkit-scrollbar-thumb {
 	border-radius: 10px;
@@ -59,7 +59,7 @@ html {
 	font-style: normal;
 }
 body {
-	background: #49246E;
+	background: #000036;
 	color: #fff;
 	font-family: Nunito, sans-serif;
 	font-size: larger;
@@ -147,7 +147,7 @@ button:hover {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-	background-color: #49246E;
+	background-color: #000036;
 	padding: 5.8em 0 0.8em 0;
 	border-radius: 0 0 40px 40px;
 	-webkit-border-radius: 0 0 40px 40px;
@@ -189,14 +189,14 @@ button:hover {
 }
 .s-m-btn {
 	background-color: #f47850;
-	color: #49246E;
+	color: #000036;
 }
 .s-m-btn-2 {
-	background-color: #49246E;
+	background-color: #000036;
 	color: #f47850;
 }
 .time-load-section {
-	background: linear-gradient(0deg, #e6f0fa 40%, #49246E 40%);
+	background: linear-gradient(0deg, #e6f0fa 40%, #000036 40%);
 	padding: 100px 0;
 }
 .card {
@@ -209,7 +209,7 @@ button:hover {
 }
 .statics-section {
 	background-color: #e6f0fa;
-	color: #49246E;
+	color: #000036;
 	padding: 70px;
 }
 .statics-description {
