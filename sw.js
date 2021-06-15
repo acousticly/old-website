@@ -74,6 +74,20 @@ workbox.routing.registerRoute(
 );
 workbox.routing.registerRoute(
 	new RegExp(
+		'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.13.11/katex.min.css'
+	),
+	workbox.strategies.cacheFirst({
+		cacheName: 'acoustic-js',
+		plugins: [
+			new workbox.expiration.Plugin({
+				maxAgeSeconds: 24 * 60 * 60 * 28,
+				purgeOnQuotaError: !0,
+			}),
+		],
+	})
+);
+workbox.routing.registerRoute(
+	new RegExp(
 		'https://apiv2.popupsmart.com/api/Bundle/script-loader/366405?Referer=https%3A%2F%2Facoustic.to%2F'
 	),
 	workbox.strategies.cacheFirst({
