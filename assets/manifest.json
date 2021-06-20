@@ -9,11 +9,16 @@
 	"description": "Acoustic is the fastest, most feature rich bot ever",
 	"shortcuts": [
 		{
-			"name": "Acoustic Features",
-			"short_name": "Features",
-			"description": "All of the features of the awesome discord bot Acoustic",
-			"url": "/features?source=pwa",
-			"icons": [{ "src": "https://raw.githubusercontent.com/acousticly/cdn/main/maskable_icon.png", "sizes": "192x192" }]
+			"name": "Acoustic commands",
+			"short_name": "commands",
+			"description": "All of the commands of the awesome discord bot Acoustic",
+			"url": "/commands?source=pwa",
+			"icons": [
+				{
+					"src": "https://raw.githubusercontent.com/acousticly/cdn/main/maskable_icon.png",
+					"sizes": "192x192"
+				}
+			]
 		}
 	],
 	"icons": [

@@ -9,7 +9,7 @@
 	.support {
 		width: 100%;
 	}
-	.features {
+	.commands {
 		width: 100%;
 	}
 	.navbar {
@@ -85,7 +85,7 @@ a {
 	color: #03192e;
 }
 
-.features {
+.commands {
 	color: #03192e;
 	text-decoration: none;
 	padding: 5px;
@@ -218,13 +218,13 @@ button:hover {
 .statics-rows {
 	flex: 33.33%;
 }
-.features-section {
+.commands-section {
 	padding: 85px 60px;
 	background-repeat: no-repeat;
 	background-position-x: right;
 	background-position-y: bottom;
 }
-.features-card {
+.commands-card {
 	padding: 15px;
 }
 .row {
