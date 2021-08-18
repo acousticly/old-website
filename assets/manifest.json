@@ -23,26 +23,6 @@
 	],
 	"icons": [
 		{
-			"src": "https://raw.githubusercontent.com/acousticly/cdn/master/icon-192x192.png",
-			"sizes": "192x192",
-			"type": "image/png"
-		},
-		{
-			"src": "https://raw.githubusercontent.com/acousticly/cdn/master/icon-256x256.png",
-			"sizes": "256x256",
-			"type": "image/png"
-		},
-		{
-			"src": "https://raw.githubusercontent.com/acousticly/cdn/master/icon-384x384.png",
-			"sizes": "384x384",
-			"type": "image/png"
-		},
-		{
-			"src": "https://raw.githubusercontent.com/acousticly/cdn/master/maskable_icon.png",
-			"sizes": "512x512",
-			"type": "image/png"
-		},
-		{
 			"src": "https://raw.githubusercontent.com/acousticly/cdn/main/maskable_icon.png",
 			"sizes": "1297x1297",
 			"type": "image/png",
