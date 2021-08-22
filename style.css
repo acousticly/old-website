@@ -180,9 +180,11 @@ button:hover {
 }
 .s-m-title {
 	margin: 20px;
+	color: #000036
 }
 .s-m-descritpion {
 	margin: 0 0 40px 0;
+	color: #000036
 }
 .s-m-btn {
 	background-color: #f47850;
