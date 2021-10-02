@@ -10,7 +10,7 @@ importScripts(
 workbox.setConfig({});
 workbox.core.setCacheNameDetails({ prefix: 'acoustic' });
 workbox.routing.registerRoute(
-	new RegExp('https://acoustic.to/index.html'),
+	new RegExp('https://fr.acoustic.to/index.html'),
 	workbox.strategies.cacheFirst({
 		cacheName: 'acoustic-html',
 		plugins: [
@@ -22,7 +22,7 @@ workbox.routing.registerRoute(
 	})
 );
 workbox.routing.registerRoute(
-	new RegExp('https://acoustic.to/.*.css'),
+	new RegExp('https://fr.acoustic.to/.*.css'),
 	workbox.strategies.cacheFirst({
 		cacheName: 'acoustic-css',
 		plugins: [
@@ -34,7 +34,7 @@ workbox.routing.registerRoute(
 	})
 );
 workbox.routing.registerRoute(
-	new RegExp('https://acoustic.to/assets/*'),
+	new RegExp('https://fr.acoustic.to/assets/*'),
 	workbox.strategies.cacheFirst({
 		cacheName: 'acoustic-assets',
 		plugins: [
@@ -47,7 +47,7 @@ workbox.routing.registerRoute(
 );
 workbox.routing.registerRoute(
 	new RegExp(
-		'https://acoustic.to/assets/manifest.json'
+		'https://fr.acoustic.to/assets/manifest.json'
 	),
 	workbox.strategies.cacheFirst({
 		cacheName: 'acoustic-manifest',
@@ -89,7 +89,7 @@ workbox.routing.registerRoute(
 );
 workbox.routing.registerRoute(
 	new RegExp(
-		'https://apiv2.popupsmart.com/api/Bundle/script-loader/366405?Referer=https%3A%2F%2Facoustic.to%2F'
+		'https://apiv2.popupsmart.com/api/Bundle/script-loader/366405?Referer=https%3A%2F%2Ffr.acoustic.to%2F'
 	),
 	workbox.strategies.cacheFirst({
 		cacheName: 'acoustic-cookies',
