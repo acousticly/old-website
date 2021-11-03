@@ -166,6 +166,7 @@ button:hover {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
+	margin-top: 10px;
 }
 .s-m-section {
 	background-image: url(./assets/footer.svg);
@@ -188,6 +189,7 @@ button:hover {
 .s-m-btn-2 {
 	background-color: #000036;
 	color: #f47850;
+	margin-top: 10px;
 }
 .time-load-section {
 	background: linear-gradient(0deg, #e6f0fa 40%, #000036 40%);
